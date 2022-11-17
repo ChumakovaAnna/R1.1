@@ -18,6 +18,6 @@ export default function ShopItemFunc({item}) {
   );
 };
 
-ShopItemFunc.prototype = {
+ShopItemFunc.propTypes = {
   item: PropTypes.object,
 }
